@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+        <title>mySecondJob</title>
+
+        <link rel="stylesheet" href="resources/css/reset.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <!--capstone_fotomatic_solution, company-homepage-with-flexbox-solutionを参考に作成-->
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h1 class="text-white">オキュパルス</h1>
+                    </div>
+                    <nav class="col-sm-4">
+                        <ul class="cf">
+                            <li class="about">
+                                <a href="">About</a>
+                            </li>
+                            <li class="service">
+                                <a href="#service-section">Service</a>
+                            </li>
+                            <li class="news">
+                                <a href="">News</a>
+                            </li>
+                            <li class="contact">
+                                <a href="#contact-section">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main contents-->
+        <div class="main-content container">
+            <section class="jumbotron" id="jumbotronBgArea">
+                <div class="container">
+                    <div class="sign-up-section">
+                        <h2>For better life</h2>
+                        <h2>Maintain your health</h2>
+                        <input type="button" value="背景変更" id="button">
+                    </div>
+                </div>       
+            </section>
+
+        <!-- Services-->
+            <div id="service-section" class="container">
+                <h2 class="desktop center">当院で行っている健診一覧</h2>
+                <h3 class="center">がんや脳疾病の早期発見や生活習慣病の予防を目的として下記のコースをご用意しております</h3>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panelN (7).jpg"  alt="A:人間ドック"/>
+                        </div>
+                        <h3>A:人間ドック</h3>
+                        <p>「がん」「心臓病」などの早期発見や生活習慣病の予防</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panel (4).jpg"  alt="B:人間ドックと脳ドック"/>
+                        </div>
+                        <h3>B:人間ドック+脳ドック</h3>
+                        <p>人間ドックと脳ドックを合わせることで、全身の健康チェック</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panelN (9).jpg"  alt="C:脳ドック"/>
+                        </div>
+                        <h3>C:脳ドック</h3>
+                        <p>「隠れ脳梗塞」「脳腫瘍」「脳動脈瘤」などの早期発見</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panel (1).jpg"  alt="H:肺ドック"/>
+                        </div>
+                        <h3>H:肺ドック</h3>
+                        <p>「肺がん」「心臓病」等の早期発見や生活習慣病の予防</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panelN (5).jpg"  alt="D:PETドック"/>
+                        </div>
+                        <h3>D:PETドック</h3>
+                        <p>苦痛なく全身の「がん」などを早期発見</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panelN (6).jpg"  alt="ドックオプション"/>
+                        </div>
+                        <h3>オプション検査</h3>
+                        <p>オプションを追加して、より深く健康チェック</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panelN (3).jpg" alt="女性検診"/>
+                        </div>
+                        <h3>女性検診</h3>
+                        <p>「乳がん」「子宮がん」の早期発見</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panelN (2).jpg"  alt="石綿・じん肺検診"/>
+                        </div>
+                        <h3>石綿・じん肺健診</h3>
+                        <p>職業性疾病に関して法規に従った特殊健診</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="image-container">
+                            <img src="./resources/images/panelN (8).jpg", alt="各種手帳健診"/>
+                        </div>
+                        <h3>各種手帳健診</h3>
+                        <p>健康管理手帳所持者に対する健診</p>
+                    </div>
+                </div>
+            </div>
+        <!--contact section-->
+            <div id="contact-section" class="container">
+                <div class="content center">
+                    <h3> 連絡先</h3>
+                    <span> Occupalth_contact@occupal.co.jp</span>
+                </div>
+            </div>
+
+        <!--footer section-->
+            <footer class="container">
+                <div class="row">
+                    <span class="copyright col-sm-4">copyright 2021  Occupalth, All Rights Reserved</span>
+                    <span class="location col-sm-2">Designed in Osaka</span>
+                </div>
+            </footer>
+        </div>
+
+        <script src="resources/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
